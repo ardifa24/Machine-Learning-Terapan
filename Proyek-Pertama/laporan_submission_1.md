@@ -99,28 +99,42 @@ Tidak terdapat missing values pada keenam kolom (Make, Model, Year, Mileage, Con
 
 link
 
-G
+Gambar 1. Bar Chart fitur Make
 Berdasarkan Visualisasi diatas menunjukkan bahwa:
-> Chevrolet adalah merek paling umum dalam dataset, disusul oleh Toyota.
-> Ford dan Honda memiliki jumlah yang sama (199 sampel).
-> Nissan merupakan merek dengan frekuensi paling rendah, namun perbedaannya sangat tipis.
-> Distribusi merek cukup merata, masing-masing menyumbang sekitar 18–21% dari total data.
+- Chevrolet adalah merek paling umum dalam dataset, disusul oleh Toyota.
+- Ford dan Honda memiliki jumlah yang sama (199 sampel).
+- Nissan merupakan merek dengan frekuensi paling rendah, namun perbedaannya sangat tipis.
+- Distribusi merek cukup merata, masing-masing menyumbang sekitar 18–21% dari total data.
 
-- Condition.png
+##### Fitur Condition (Kondisi Mobil)
+
+link
+
+Gambar 2. Bar Chart fitur Condition
 Berdasarkan visualisasi diatas menunjukkan bahwa:
-> Mayoritas mobil (59.5%) berada dalam kondisi Excellent, menunjukkan bahwa sebagian besar kendaraan dalam dataset ini berada dalam kondisi sangat baik.
-> Hanya 11.3% mobil yang berada dalam kondisi Fair
+- Mayoritas mobil (59.5%) berada dalam kondisi Excellent, menunjukkan bahwa sebagian besar kendaraan dalam dataset ini berada dalam kondisi sangat baik.
+- Hanya 11.3% mobil yang berada dalam kondisi Fair
 
-- Histo.png
+##### Histogram Fitur Numerik (Year, Mileage, Price)
+
+link
+
+Gambar 3. Histogram Fitur Numerik
 Berdasarkan Visualisasi Histogram diatas menunjukkan bahwa:
-> Pada Fitur Year yang merupakan tahun produksi mobil, menunjukkan distribusi terlihat cukup merata pada tahun 2010 hingga 2022, dengan puncak jumlah kendaraan berapa di tahun 2011 dan 2015.
-> Pada fitur Mileage yang merupakan jarak tempuh mobil, menunjukan bahwa distribusi terlihat cukup menyebar, mulai dari sekitar 10.000 km hingga lebih dari 140.000 km
-> Pada fitur Prices yang merupakan harga mobil, menunjukkan bahwa sebagian besar mobil berada pada kisaran harga pasar menengah
-5. Multivariate Analysis
-- Heatmap.png
+- Pada Fitur Year yang merupakan tahun produksi mobil, menunjukkan distribusi terlihat cukup merata pada tahun 2010 hingga 2022, dengan puncak jumlah kendaraan berapa di tahun 2011 dan 2015.
+- Pada fitur Mileage yang merupakan jarak tempuh mobil, menunjukan bahwa distribusi terlihat cukup menyebar, mulai dari sekitar 10.000 km hingga lebih dari 140.000 km
+- Pada fitur Prices yang merupakan harga mobil, menunjukkan bahwa sebagian besar mobil berada pada kisaran harga pasar menengah
+
+#### Multivariate Analysis
+
+##### Heatmap Korelasi Fitur Numerik
+
+link
+
+Gambar 4. Heatmap Korelasi Fitur Numerik
 Berdasarkan visualisasi heatmap korelasi diatas menunjukkan bahwa:
-> Fitur Year memiliki pengaruh paling besar terhadap Price, dengan korelasi negatif yang sangat kuat.
-> Mileage juga berpengaruh terhadap Price, meskipun tidak sekuat Year.
+- Fitur Year memiliki pengaruh paling besar terhadap Price, dengan korelasi negatif yang sangat kuat.
+- Mileage juga berpengaruh terhadap Price, meskipun tidak sekuat Year.
 
 ## Data Preparation
 
