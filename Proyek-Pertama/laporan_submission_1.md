@@ -10,6 +10,7 @@ Referensi:
 ## Business Understanding
 
 ### Problem Statements
+
 - Fitur apa yang paling berpengaruh terhadap harga mobil bekas?
 - Bagaimana model Machine Learning mampu memprediksi harga mobil bekas berdasarkan fitur-fitur yang tersedia?
 - Algoritma Machine Learning Regresi apa yang memberikan hasil prediksi terbaik berdasarkan metrik evaluasi seperti MAE, MSE, atau RMSE?
