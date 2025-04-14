@@ -16,6 +16,7 @@ Referensi:
 - Algoritma Machine Learning Regresi apa yang memberikan hasil prediksi terbaik berdasarkan metrik evaluasi seperti MAE, MSE, atau RMSE?
 
 ### Goals
+
 - Mengidentifikasi fitur-fitur yang paling berkorelasi dengan harga mobil bekas.
 - Membangun model machine learning untuk memprediksi harga mobil bekas berdasarkan fitur-fitur yang tersedia.
 - Mengevaluasi dan menentukan algoritma regresi terbaik berdasarkan performa metrik regresi (MAE, MSE, dan RMSE).
@@ -26,6 +27,7 @@ Referensi:
     - Mengevaluasi performa model menggunakan metrik evaluasi regresi seperti Mean Absolute Error (MAE), Mean Squared Error (MSE), dan Root Mean Squared Error (RMSE).
 
 ## Data Understanding
+
 Dataset yang digunakan dalam proyek ini diambil dari Kaggle, dengan tautan berikut: [Car-Prices-Prediction-data](https://www.kaggle.com/datasets/mrsimple07/car-prices-prediction-data/data). Dataset ini berisi tentang harga mobil dan fitur-fitur yang terkait, Berikut adalah gambaran singkat mengenai dataset tersebut:
 
 ### Variabel-variabel pada Car-Price-Prediction-Data adalah sebagai berikut:
