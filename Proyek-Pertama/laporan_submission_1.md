@@ -43,7 +43,7 @@ Himpunan data terdiri dari tipe data numerik dan kategoris. Fitur numerik termas
 Dataset memiliki 1000 baris dan 7 kolom 
 
 ### Exploratory Data Analysis (EDA)
-1. Struktur Data
+- Struktur Data
    
 | #   | Column    | Non-Null Count | Dtype   |
 |-----|-----------|----------------|---------|
@@ -55,7 +55,8 @@ Dataset memiliki 1000 baris dan 7 kolom
 | 5   | Price     | 1000 non-null  | float64 |
 
 Setelah Menghapus Kolom Unnamed: 0 yang hanya berisi index dari file CSV, Dataset kini memiliki 1000 baris dan 6 kolom. Kolom Make, Model, Year, Mileage, dan Condition merupakan Fitur dan kolom Price merupakan target/label
-2. Deskriptif Statistik
+
+- Deskriptif Statistik
 
 |  #  |Year 	 |Mileage      |Price       |
 |-----|----------|-------------|------------|
