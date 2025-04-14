@@ -143,15 +143,15 @@ Berdasarkan visualisasi heatmap korelasi diatas menunjukkan bahwa:
 ## Data Preparation
 
 ### Tahapan Data Preparation
-1. One Hot Encoding
+#### One Hot Encoding
 - Mengubah fitur kategorikal (berupa teks) menjadi fitur baru yang sesuai sehingga dapat mewakili variabel kategori
 - Proses ini menghasilkan kolom baru sebanyak jumlah kategori unik di tiap fitur.
 - proses ini harus dilakukan karena Algoritma machine learning (seperti regresi dan random forest) hanya bekerja dengan data numerik.
-2. Feature target Split 
+#### Feature target Split 
 - Memisahkan data menjadi dua bagian: fitur (X) dan target prediksi (y).
 - Kolom Price digunakan sebagai target (y), dan semua kolom lain digunakan sebagai fitur(X).
 - Proses ini harus dilakukan karena model harus jelas mana input(fitur) dan output(target).
-3. Train-Test Split
+#### Train-Test Split
 - Membagi data menjadi dua subset: data pelatihan (training) dan data.pengujian (testing), agar bisa mengukur performa model secara objektif
 - Data dibagi dengan rasio 80% training dan 20% testing.
 - Proses ini perlu dilakukan karena untuk memastikan bahwa model benar-benar berguna, bukan sekedar jago di data latih.
