@@ -46,7 +46,8 @@ Dataset memiliki 1000 baris dan 7 kolom
 
 ### Exploratory Data Analysis (EDA)
 #### Struktur Data
-   
+
+ Tabel 1. Deskripsi dan tipe data variabel  
 | #   | Column    | Non-Null Count | Dtype   |
 |-----|-----------|----------------|---------|
 | 0   | Make      | 1000 non-null  | object  |
@@ -60,6 +61,7 @@ Setelah Menghapus Kolom Unnamed: 0 yang hanya berisi index dari file CSV, Datase
 
 #### Deskriptif Statistik
 
+Tabel 2.  Deskriptif Statistik fitur numerik
 |  #  |Year 	 |Mileage      |Price       |
 |-----|----------|-------------|------------|
 |count|1000.00000|1000.000000  |1000.000000 |
@@ -77,7 +79,8 @@ Berdasarkan informasi diatas menunjukkan bahwa:
 - Harga mobil tersebar antara sekitar 12 ribu hingga 31 ribu, dengan rata-rata sekitar 22 ribu. Ini cocok untuk kasus regresi harga mobil.
   
 #### Missing Value
-  
+
+Tabel 3. Missing Value
 |  Column  |  0  | 
 |----------|-----|
 | Make     |  0  |
@@ -89,9 +92,15 @@ Berdasarkan informasi diatas menunjukkan bahwa:
 | Make     |  0  |
 
 Tidak terdapat missing values pada keenam kolom (Make, Model, Year, Mileage, Condition, dan Price) dalam dataset.
-4. Univariate Analysis
-- ![Image](https://github.com/user-attachments/assets/4106040e-e869-44d7-accb-2c19209358e2)
-  Berdasarkan Visualisasi diatas menunjukkan bahwa:
+
+#### Univariate Analysis
+
+##### Fitur Make (Merek Mobil)
+
+link
+
+G
+Berdasarkan Visualisasi diatas menunjukkan bahwa:
 > Chevrolet adalah merek paling umum dalam dataset, disusul oleh Toyota.
 > Ford dan Honda memiliki jumlah yang sama (199 sampel).
 > Nissan merupakan merek dengan frekuensi paling rendah, namun perbedaannya sangat tipis.
