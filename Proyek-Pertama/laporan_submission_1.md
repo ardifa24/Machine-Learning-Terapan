@@ -44,14 +44,14 @@ Dataset memiliki 1000 baris dan 7 kolom
 
 ### Exploratory Data Analysis (EDA)
 1. Struktur Data
-| # |  Column  | Non-Null Count | Dtype |
-|---|----------|----------------|-------|
-| 0 | Make     | 1000 non-null  |object |
-| 1 | Model    | 1000 non-null  |object |
-| 2 | Year     | 1000 non-null  |int64  |
-| 3 | Mileage  | 1000 non-null  |int64  |
-| 4 | Condition| 1000 non-null  |object |
-| 5 | Price    | 1000 non-null  |float64|
+| #   | Column    | Non-Null Count | Dtype   |
+|-----|-----------|----------------|---------|
+| 0   | Make      | 1000 non-null  | object  |
+| 1   | Model     | 1000 non-null  | object  |
+| 2   | Year      | 1000 non-null  | int64   |
+| 3   | Mileage   | 1000 non-null  | int64   |
+| 4   | Condition | 1000 non-null  | object  |
+| 5   | Price     | 1000 non-null  | float64 |
 Setelah Menghapus Kolom Unnamed: 0 yang hanya berisi index dari file CSV, Dataset kini memiliki 1000 baris dan 6 kolom. Kolom Make, Model, Year, Mileage, dan Condition merupakan Fitur dan kolom Price merupakan target/label
 2. Deskriptif Statistik
 |  #  |Year 	 |Mileage      |Price       |
