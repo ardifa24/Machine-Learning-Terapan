@@ -98,6 +98,7 @@ Tidak terdapat missing values pada keenam kolom (Make, Model, Year, Mileage, Con
 ##### Fitur Make (Merek Mobil)
 
 ![Image](https://github.com/user-attachments/assets/0206bc51-eeb6-405d-a1f9-a07d06583e52)
+
 Gambar 1. Bar Chart fitur Make
 
 Berdasarkan Visualisasi diatas menunjukkan bahwa:
@@ -109,6 +110,7 @@ Berdasarkan Visualisasi diatas menunjukkan bahwa:
 ##### Fitur Condition (Kondisi Mobil)
 
 ![Image](https://github.com/user-attachments/assets/26e2d13b-57c6-44bf-86e6-ef772f1e535f)
+
 Gambar 2. Bar Chart fitur Condition
 
 Berdasarkan visualisasi diatas menunjukkan bahwa:
