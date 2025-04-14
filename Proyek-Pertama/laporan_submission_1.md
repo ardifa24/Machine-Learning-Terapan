@@ -44,6 +44,7 @@ Dataset memiliki 1000 baris dan 7 kolom
 
 ### Exploratory Data Analysis (EDA)
 1. Struktur Data
+   
 | #   | Column    | Non-Null Count | Dtype   |
 |-----|-----------|----------------|---------|
 | 0   | Make      | 1000 non-null  | object  |
@@ -52,8 +53,10 @@ Dataset memiliki 1000 baris dan 7 kolom
 | 3   | Mileage   | 1000 non-null  | int64   |
 | 4   | Condition | 1000 non-null  | object  |
 | 5   | Price     | 1000 non-null  | float64 |
+
 Setelah Menghapus Kolom Unnamed: 0 yang hanya berisi index dari file CSV, Dataset kini memiliki 1000 baris dan 6 kolom. Kolom Make, Model, Year, Mileage, dan Condition merupakan Fitur dan kolom Price merupakan target/label
 2. Deskriptif Statistik
+
 |  #  |Year 	 |Mileage      |Price       |
 |-----|----------|-------------|------------|
 |count|1000.00000|1000.000000  |1000.000000 |
@@ -64,11 +67,13 @@ Setelah Menghapus Kolom Unnamed: 0 yang hanya berisi index dari file CSV, Datase
 |50%  |2016.00000|78056.500000 |22247.875000|
 |75%  |2019.00000|112366.250000|25510.275000|
 |max  |2022.00000|149794.000000|31414.900000|
+
 Berdasarkan informasi diatas menunjukkan bahwa:
 - Tahun mobil berkisar antara 2010 hingga 2022, dengan median di 2016. Ini menunjukkan mayoritas mobil relatif baru.
 - Kisaran jarak tempuh sangat bervariasi (10 ribu hingga hampir 150 ribu km), menunjukkan dataset mencakup mobil baru hingga cukup tua.
 - Harga mobil tersebar antara sekitar 12 ribu hingga 31 ribu, dengan rata-rata sekitar 22 ribu. Ini cocok untuk kasus regresi harga mobil.
 3. Missing Value
+  
 |  Column  |  0  | 
 |----------|-----|
 | Make     |  0  |
@@ -78,6 +83,7 @@ Berdasarkan informasi diatas menunjukkan bahwa:
 | Condition|  0  |
 | Price    |  0  |
 | Make     |  0  |
+
 Tidak terdapat missing values pada keenam kolom (Make, Model, Year, Mileage, Condition, dan Price) dalam dataset.
 4. Univariate Analysis
 - Make.png
@@ -147,11 +153,13 @@ Pada tahap evaluasi, ketiga model Machine Learning dalam memprediksi harga mobil
 3. Mean Absolute Error (MAE): Mengukur rata-rata kesalahan absolut antara nilai aktual dan prediksi.
 
 ### Hasil evaluasi
+
 |      Model      |R² Score|     RMSE  |     MAE   |
 |-----------------|--------|-----------|-----------|
 |Linear Regression|1.000000|  0.069118 |   0.060029|
 |Random Forest    |0.999071| 137.197834|  97.705023|
 |SVR              |0.009285|4480.515800|3718.962264|
+
 Insight:
 - Berdasarkan evaluasi menggunakan metrik R², RMSE, dan MAE, model Linear Regression memiliki performa terbaik dalam memprediksi harga mobil.
 - Random Forest layak dipertimbangkan sebagai solusi jika error RMSE/MAE masuk akal dalam konteks bisnis.
