@@ -97,7 +97,7 @@ Tidak terdapat missing values pada keenam kolom (Make, Model, Year, Mileage, Con
 
 ##### Fitur Make (Merek Mobil)
 
-link
+![Image](https://github.com/user-attachments/assets/4106040e-e869-44d7-accb-2c19209358e2)
 
 Gambar 1. Bar Chart fitur Make
 
