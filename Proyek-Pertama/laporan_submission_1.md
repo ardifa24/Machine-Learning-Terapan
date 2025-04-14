@@ -100,6 +100,7 @@ Tidak terdapat missing values pada keenam kolom (Make, Model, Year, Mileage, Con
 link
 
 Gambar 1. Bar Chart fitur Make
+
 Berdasarkan Visualisasi diatas menunjukkan bahwa:
 - Chevrolet adalah merek paling umum dalam dataset, disusul oleh Toyota.
 - Ford dan Honda memiliki jumlah yang sama (199 sampel).
@@ -111,6 +112,7 @@ Berdasarkan Visualisasi diatas menunjukkan bahwa:
 link
 
 Gambar 2. Bar Chart fitur Condition
+
 Berdasarkan visualisasi diatas menunjukkan bahwa:
 - Mayoritas mobil (59.5%) berada dalam kondisi Excellent, menunjukkan bahwa sebagian besar kendaraan dalam dataset ini berada dalam kondisi sangat baik.
 - Hanya 11.3% mobil yang berada dalam kondisi Fair
@@ -120,6 +122,7 @@ Berdasarkan visualisasi diatas menunjukkan bahwa:
 link
 
 Gambar 3. Histogram Fitur Numerik
+
 Berdasarkan Visualisasi Histogram diatas menunjukkan bahwa:
 - Pada Fitur Year yang merupakan tahun produksi mobil, menunjukkan distribusi terlihat cukup merata pada tahun 2010 hingga 2022, dengan puncak jumlah kendaraan berapa di tahun 2011 dan 2015.
 - Pada fitur Mileage yang merupakan jarak tempuh mobil, menunjukan bahwa distribusi terlihat cukup menyebar, mulai dari sekitar 10.000 km hingga lebih dari 140.000 km
@@ -132,6 +135,7 @@ Berdasarkan Visualisasi Histogram diatas menunjukkan bahwa:
 link
 
 Gambar 4. Heatmap Korelasi Fitur Numerik
+
 Berdasarkan visualisasi heatmap korelasi diatas menunjukkan bahwa:
 - Fitur Year memiliki pengaruh paling besar terhadap Price, dengan korelasi negatif yang sangat kuat.
 - Mileage juga berpengaruh terhadap Price, meskipun tidak sekuat Year.
