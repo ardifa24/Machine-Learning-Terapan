@@ -1,5 +1,4 @@
 # Laporan Proyek Machine Learning - M. Ardifa Rizqi Ramadhan
-
 ## Domain Proyek
 Penentuan harga yang akurat merupakan faktor krusial yang mempengaruhi profitabilitas dan daya saing perusahaan dalam industri jual-beli mobil bekas. Harga mobil bekas tidak memiliki standar baku seperti komoditas lainnya, sehingga dipengaruhi oleh berbagai fitur seperti merk, model, tahun produksi, jarak tempuh, kondisi kendaraan dan fitur tambahan. Variabilitas ini menuntut perusahaan untuk memiliki sistem yang mampu memprediksi harga pasar secara tepat guna mendukung pengambilan keputusan bisnis yang strategis.
 Sebagai perusahaan yang bergerak di bidang distributor dan ritel mobil bekas, penetapan harga beli yang tepat sangat penting untuk memastikan margin keuntungan tetap optimal. Oleh karena itu, perusahaan membutuhkan sistem prediksi harga yang akurat untuk mendukung pengambilan keputusan dalam proses pembelian dan penjualan kendaraan. Masalah ini perlu diselesaikan karena keputusan harga yang tidak tepat dapat merugikan bisnis, dan sistem prediksi otomatis berbasis data menjadi solusi untuk meningkatkan akurasi dan efisiensi penentuan harga [1]. 
