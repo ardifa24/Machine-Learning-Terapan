@@ -86,8 +86,8 @@ Berdasarkan informasi diatas menunjukkan bahwa:
 
 Tidak terdapat missing values pada keenam kolom (Make, Model, Year, Mileage, Condition, dan Price) dalam dataset.
 4. Univariate Analysis
-- Make.png
-Berdasarkan Visualisasi diatas menunjukkan bahwa:
+- ![Image](https://github.com/user-attachments/assets/4106040e-e869-44d7-accb-2c19209358e2)
+  Berdasarkan Visualisasi diatas menunjukkan bahwa:
 > Chevrolet adalah merek paling umum dalam dataset, disusul oleh Toyota.
 > Ford dan Honda memiliki jumlah yang sama (199 sampel).
 > Nissan merupakan merek dengan frekuensi paling rendah, namun perbedaannya sangat tipis.
