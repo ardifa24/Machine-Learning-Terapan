@@ -158,18 +158,18 @@ Berdasarkan visualisasi heatmap korelasi diatas menunjukkan bahwa:
 
 ## Modeling
 Pada tahap Modeling, akan menggunakan tiga Algoritma Machine Learning untuk tugas Regresi, yaitu: Linear Regression, Random Forest Regressor, dan Suport Vector Regressor. Kinerja ketiga algoritma akan dievaluasi menggunakan metrik R², RMSE, dan MAE, kemudian dibandingkan untuk memilih satu model terbaik.
-1. Linier Regression
+### Linier Regression
 model statistik paling dasar yang memodelkan hubungan linear antara variabel independen (fitur) dan dependen (target). Model ini mencari garis lurus terbaik yang meminimalkan jumlah kesalahan kuadrat (ordinary least squares). Keunggulan utamanya terletak pada kecepatan komputasi dan kemudahan interpretasi koefisien, membuatnya ideal sebagai baseline model. Namun, model ini memiliki keterbatasan dalam menangkap hubungan non-linear dan sangat sensitif terhadap outlier serta multikolinearitas antar fitur.
 Parameter yang digunakan:
 - Default scikit-learn
 - Tidak ada hyperparameter tuning karena model sederhana
 
-2. Random Forest Regressor 
+### Random Forest Regressor 
 metode ensemble yang membangun banyak decision tree secara paralel dan menggabungkan prediksinya. Setiap tree dilatih pada subset data dan fitur yang berbeda (teknik bagging) untuk meningkatkan akurasi dan stabilitas prediksi. Kelebihan utama algoritma ini adalah kemampuannya menangkap pola kompleks dan non-linear, serta ketahanannya terhadap overfitting berkat mekanisme averaging. Meskipun lebih lambat dan kurang interpretabel dibanding linear regression, Random Forest tidak memerlukan preprocessing ekstensif seperti scaling dan dapat menangani missing value secara implisit.
 Parameter yang digunakan:
 - random_state=42
 
-3. Support Vector Regression (SVR)
+### Support Vector Regression (SVR)
 Support Vector Regression (SVR) mengadaptasi konsep Support Vector Machine untuk masalah regresi dengan mencari hyperplane optimal yang mempertahankan kesalahan prediksi dalam batas toleransi ε. Menggunakan kernel trick (seperti RBF), SVR mampu memodelkan hubungan non-linear dengan memproyeksikan data ke dimensi lebih tinggi. Keunggulannya terletak pada efektivitas di data berdimensi tinggi dan ketahanan terhadap overfitting, namun memerlukan tuning hyperparameter yang hati-hati dan preprocessing berupa feature scaling. Kompleksitas komputasinya yang tinggi membuat SVR kurang cocok untuk dataset berskala besar.
 Parameter yang digunakan:
 - Default Scikit-learn
@@ -179,9 +179,9 @@ Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda
 Pada tahap evaluasi, ketiga model Machine Learning dalam memprediksi harga mobil menggunakan metrik yang relevan untuk masalah regresi. Metrik yang digunakan adalam R-Square(R²), RMSE (Root Mean Squared Error), dan MAE (Mean Absolute Error).
 
 ### Metrik Evaluasi yang digunakan
-1. R-Square(R²): Mengukur seberapa baik model menjelaskan variasi data target.
-2. Mean Squared Error (MSE): Memberikan penalti lebih besar untuk kesalahan yang besar.
-3. Mean Absolute Error (MAE): Mengukur rata-rata kesalahan absolut antara nilai aktual dan prediksi.
+- R-Square(R²): Mengukur seberapa baik model menjelaskan variasi data target.
+- Mean Squared Error (MSE): Memberikan penalti lebih besar untuk kesalahan yang besar.
+- Mean Absolute Error (MAE): Mengukur rata-rata kesalahan absolut antara nilai aktual dan prediksi.
 
 ### Hasil evaluasi
 
