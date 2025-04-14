@@ -37,9 +37,9 @@ Dataset yang digunakan dalam proyek ini diambil dari Kaggle, dengan tautan berik
 - Price : Harga mobil
 
 ### Kondisi Data
-1. Tipe Data:
+- Tipe Data:
 Himpunan data terdiri dari tipe data numerik dan kategoris. Fitur numerik termasuk Year, Mileage, dan Price, sedangkan Kategoris termasuk Make, Model, dan Condition
-2. Jumlah Baris dan Kolom:
+- Jumlah Baris dan Kolom:
 Dataset memiliki 1000 baris dan 7 kolom 
 
 ### Exploratory Data Analysis (EDA)
