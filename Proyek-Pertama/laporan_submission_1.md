@@ -119,7 +119,7 @@ Berdasarkan visualisasi diatas menunjukkan bahwa:
 
 ##### Histogram Fitur Numerik (Year, Mileage, Price)
 
-![Image](https://github.com/user-attachments/assets/48dcd332-5ea2-4ed1-8708-818ae7d9999c)
+![Image](https://github.com/user-attachments/assets/4c25cc04-b9f5-4203-9644-3974555b40bc)
 
 Gambar 3. Histogram Fitur Numerik
 
@@ -132,7 +132,7 @@ Berdasarkan Visualisasi Histogram diatas menunjukkan bahwa:
 
 ##### Heatmap Korelasi Fitur Numerik
 
-![Image](https://github.com/user-attachments/assets/4c25cc04-b9f5-4203-9644-3974555b40bc)
+![Image](https://github.com/user-attachments/assets/48dcd332-5ea2-4ed1-8708-818ae7d9999c)
 
 Gambar 4. Heatmap Korelasi Fitur Numerik
 
