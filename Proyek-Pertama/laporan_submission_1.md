@@ -158,7 +158,8 @@ Berdasarkan visualisasi heatmap korelasi diatas menunjukkan bahwa:
 
 ## Modeling
 Pada tahap Modeling, akan menggunakan tiga Algoritma Machine Learning untuk tugas Regresi, yaitu: Linear Regression, Random Forest Regressor, dan Suport Vector Regressor. Kinerja ketiga algoritma akan dievaluasi menggunakan metrik R², RMSE, dan MAE, kemudian dibandingkan untuk memilih satu model terbaik.
-### Linier Regression
+
+### Linear Regression
 model statistik paling dasar yang memodelkan hubungan linear antara variabel independen (fitur) dan dependen (target). Model ini mencari garis lurus terbaik yang meminimalkan jumlah kesalahan kuadrat (ordinary least squares). Keunggulan utamanya terletak pada kecepatan komputasi dan kemudahan interpretasi koefisien, membuatnya ideal sebagai baseline model. Namun, model ini memiliki keterbatasan dalam menangkap hubungan non-linear dan sangat sensitif terhadap outlier serta multikolinearitas antar fitur.
 Parameter yang digunakan:
 - Default scikit-learn
