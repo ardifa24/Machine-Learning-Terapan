@@ -45,7 +45,7 @@ Himpunan data terdiri dari tipe data numerik dan kategoris. Fitur numerik termas
 Dataset memiliki 1000 baris dan 7 kolom 
 
 ### Exploratory Data Analysis (EDA)
-- Struktur Data
+#### Struktur Data
    
 | #   | Column    | Non-Null Count | Dtype   |
 |-----|-----------|----------------|---------|
@@ -58,7 +58,7 @@ Dataset memiliki 1000 baris dan 7 kolom
 
 Setelah Menghapus Kolom Unnamed: 0 yang hanya berisi index dari file CSV, Dataset kini memiliki 1000 baris dan 6 kolom. Kolom Make, Model, Year, Mileage, dan Condition merupakan Fitur dan kolom Price merupakan target/label
 
-- Deskriptif Statistik
+#### Deskriptif Statistik
 
 |  #  |Year 	 |Mileage      |Price       |
 |-----|----------|-------------|------------|
@@ -75,7 +75,8 @@ Berdasarkan informasi diatas menunjukkan bahwa:
 - Tahun mobil berkisar antara 2010 hingga 2022, dengan median di 2016. Ini menunjukkan mayoritas mobil relatif baru.
 - Kisaran jarak tempuh sangat bervariasi (10 ribu hingga hampir 150 ribu km), menunjukkan dataset mencakup mobil baru hingga cukup tua.
 - Harga mobil tersebar antara sekitar 12 ribu hingga 31 ribu, dengan rata-rata sekitar 22 ribu. Ini cocok untuk kasus regresi harga mobil.
-3. Missing Value
+  
+#### Missing Value
   
 |  Column  |  0  | 
 |----------|-----|
