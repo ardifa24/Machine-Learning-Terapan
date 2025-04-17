@@ -145,7 +145,7 @@ Berdasarkan visualisasi heatmap korelasi diatas menunjukkan bahwa:
 ### Tahapan Data Preparation
 #### One Hot Encoding
 - Mengubah fitur kategorikal (berupa teks) menjadi fitur baru yang sesuai sehingga dapat mewakili variabel kategori
-- Proses ini menghasilkan kolom baru sebanyak jumlah kategori unik di tiap fitur.
+- Proses One-Hot Encoding dilakukan pada tiga kolom kategorikal yaitu make(merek), model, dan condition. Kolom make memiliki 5 kategori, model memiliki 5 kategori, dan condition memiliki 3 kategori. Melalui One-Hot Encoding, setiap kategori unik dari masing-masing kolom akan dikonversi menjadi kolom baru yang merepresentasikan kehadiran kategori tersebut dengan nilai 0 atau 1 (true atau false). Hasilnya, akan terbentuk 13 kolom baru (5 dari make, 5 dari model, dan 3 dari condition), sementara ketiga kolom aslinya akan dihapus. Proses ini bertujuan untuk mengubah data kategorikal menjadi bentuk numerik.
 - proses ini harus dilakukan karena Algoritma machine learning (seperti regresi dan random forest) hanya bekerja dengan data numerik.
 #### Feature target Split 
 - Memisahkan data menjadi dua bagian: fitur (X) dan target prediksi (y).
