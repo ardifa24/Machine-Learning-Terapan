@@ -119,6 +119,7 @@ Untuk mengukur performa sistem, dilakukan pengujian dengan input course berjudul
 
 ## References:
 [1] A. A. Neamah and A. S. El-Ameer, "Design and Evaluation of a Course Recommender System Using Content-Based Approach," in Proceedings of the 2018 1st International Conference on Advanced Science and Engineering (ICOASE), doi: 10.1109/ICOASE.2018.8548789 (https://doi.org/10.1109/ICOASE.2018.8548789).
+
 [2]  M. Suryani, R. Pangestu, and A. Pradana, “Optimizing Item-based Collaborative Filtering for Course Recommendation: a Case Study with Coursera Data,” in Proceedings of the 2024 International Conference on Information Technology Systems and Innovation (ICITSI), doi: 10.1109/ICITSI65188.2024.10929184 (https://doi.org/10.1109/ICITSI65188.2024.10929184)
 
 **---Ini adalah bagian akhir laporan---**
