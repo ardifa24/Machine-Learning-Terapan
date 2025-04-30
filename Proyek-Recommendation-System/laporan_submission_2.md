@@ -1,5 +1,4 @@
-# Laporan Proyek Machine Learning - Nama Anda
-
+# Laporan Proyek Machine Learning - M. Ardifa Rizqi Ramadhan
 ## Project Overview
 
 platform pembelajaran daring seperti Coursera, edX, dan berbagai Massive Open Online Course (MOOC) lainnya telah mengalami pertumbuhan yang pesat dalam beberapa tahun terakhir. Ribuan kursus baru ditawarkan setiap tahunnya untuk memenuhi kebutuhan pendidikan yang semakin beragam dari masyarakat global. Namun, melimpahnya pilihan ini justru menimbulkan tantangan baru berupa information overload, di mana pengguna kesulitan memilih kursus yang paling sesuai dengan minat, kebutuhan, dan tingkat keahlian mereka. Apabila tidak diatasi, masalah ini dapat menyebabkan pengguna merasa frustasi, memilih kursus yang kurang relevan, hingga akhirnya menurunkan tingkat keterlibatan dan keberhasilan dalam pembelajaran.
@@ -76,7 +75,7 @@ Tidak terdapat missing values pada keenam kolom (Course Name, University, Dificu
 
 [[]]
 
-Gambar 1
+Gambar 1 Bar Chart Variabel Dificult Level
 
 Berdasarkan Visualisasi diatas menunjukkan bahwa:
 Mayoritas kursus ditujukan untuk pemula (Beginner) dengan 41% (1444 kursus), yang mungkin menunjukkan target utamanya adalah pengguna yang baru memulai pembelajaran di bidang tertentu. Ini bisa menjadi pertimbangan penting bagi lembaga pendidikan yang ingin menyasar segmen pemula.
@@ -106,6 +105,7 @@ Setelah mendapatkan representasi vektor dari setiap kursus, tahap selanjutnya ad
 ### Top-N Recommendation
 Dari hasil perhitungan cosine similarity, didapatkan sejumlah kandidat kursus yang memiliki kemiripan tinggi dengan kursus yang dipilih pengguna. Selanjutnya, kandidat tersebut disusun berdasarkan urutan nilai similarity tertinggi, dan sejumlah Top-N kursus ditampilkan sebagai hasil rekomendasi. Dalam proyek ini, ditentukan bahwa sistem akan menampilkan 5 rekomendasi teratas (Top-5 recommendation). Setiap rekomendasi disajikan bersama deskripsi dan keterampilan yang relevan, sehingga pengguna dapat mempertimbangkan kursus lain yang memiliki karakteristik serupa dengan yang telah dipilih sebelumnya. Hasil dari penerapannya dengan judul 'Predictive Analytics and Data Mining' dapat dilihat pada tabel berikut:
 
+Tabel 3. Top-5 Recommended
 | Course_Name                                     | Course_Description                                                                                           | Skills                                                     |
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | Predictive Modeling and Analytics               | Welcome to the second course in the Data Analytics for Business specialization.                              | Logistic Regression, analytics, predictive analytics       |
