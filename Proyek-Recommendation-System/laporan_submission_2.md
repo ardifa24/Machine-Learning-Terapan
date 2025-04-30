@@ -69,7 +69,7 @@ Tidak terdapat missing values pada keenam kolom (Course Name, University, Dificu
 
 #### Bar Chart fitur Dificult Level
 
-[[]]
+![Image](https://github.com/user-attachments/assets/478c5437-d76b-44a4-9cd6-a8782f6fb402)
 
 Gambar 1 Bar Chart Variabel Dificult Level
 
