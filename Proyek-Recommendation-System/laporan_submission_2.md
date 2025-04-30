@@ -74,7 +74,7 @@ Tidak terdapat missing values pada keenam kolom (Course Name, University, Dificu
 Gambar 1. Bar Chart Variabel Dificult Level
 
 Berdasarkan Visualisasi diatas menunjukkan bahwa:
-Mayoritas kursus ditujukan untuk pemula (Beginner) dengan 41% (1444 kursus), yang mungkin menunjukkan target utamanya adalah pengguna yang baru memulai pembelajaran di bidang tertentu. Ini bisa menjadi pertimbangan penting bagi lembaga pendidikan yang ingin menyasar segmen pemula.
+Mayoritas kursus ditujukan untuk pemula (Beginner) dengan 41% (1444 kursus), menunjukkan target utamanya adalah pengguna yang baru memulai pembelajaran di bidang tertentu. Ini bisa menjadi pertimbangan penting bagi lembaga pendidikan yang ingin menyasar segmen pemula.
 
 ## Data Preparation
 
